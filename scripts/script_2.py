@@ -64,8 +64,6 @@ def parse_data(url):
             DATA["latlon"] = f'{latlon}'
             data_list.append(DATA.copy())
 
-        ''' к сожалению, у меня не вышло вытянуть с этого сайта время работы без селениума '''
-
         return data_list
 
     else:
